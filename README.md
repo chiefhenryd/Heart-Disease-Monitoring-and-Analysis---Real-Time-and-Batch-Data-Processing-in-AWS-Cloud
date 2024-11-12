@@ -18,17 +18,25 @@ Alerts are generated using Amazon SNS and CloudWatch for threshold-based health 
 
 Data is stored using a star schema, with fact tables for health metrics and dimension tables for demographics, health conditions, and lifestyle.
 This design supports efficient querying and reporting for heart disease analysis.
-Technologies Used:
+
+**Technologies Used:**
 
 **AWS Lambda:** Manages batch ingestion and real-time processing.
+
 **Amazon Kinesis:** Ingests real-time data from wearable devices.
+
 **AWS Glue:** Performs ETL for batch data and catalogs data for analytics.
+
 **Amazon S3:** Stores raw, processed, and curated data layers.
+
 **Amazon Redshift:** Data warehouse for efficient analytics and reporting.
+
 **Amazon SNS and CloudWatch:** Sends alerts and monitors system health.
 
 **Project Objectives:**
 
 Implement a cloud-based, dual-mode (real-time and batch) system for heart disease monitoring.
+
 Provide analytical insights to help healthcare professionals take proactive action.
+
 Generate real-time alerts for critical health events, improving patient care.
