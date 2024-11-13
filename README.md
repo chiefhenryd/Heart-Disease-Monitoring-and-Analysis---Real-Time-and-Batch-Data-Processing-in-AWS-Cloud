@@ -1,6 +1,6 @@
 # Heart-Disease-Monitoring-and-Analysis---Real-Time-and-Batch-Data-Processing-in-AWS-Cloud
 
-**Project Overview:** This project aims to build a comprehensive system for heart disease monitoring and analysis on the AWS Cloud, utilizing both real-time and batch data processing. The solution helps healthcare providers manage patient data, gain insights, and receive timely alerts, ultimately improving patient care and proactive health management.
+**Project Overview:** This project aims to build a comprehensive system for heart disease monitoring and analysis on the AWS Cloud, utilizing real-time and batch data processing. The solution helps healthcare providers manage patient data, gain insights, and receive timely alerts, ultimately improving patient care and proactive health management.
 
 **Key Components:**
 
@@ -21,17 +21,15 @@ This design supports efficient querying and reporting for heart disease analysis
 
 **Technologies Used:**
 
-**AWS Lambda:** Manages batch ingestion and real-time processing.
-
-**Amazon Kinesis:** Ingests real-time data from wearable devices.
-
-**AWS Glue:** Performs ETL for batch data and catalogs data for analytics.
-
+**AWS Lambda:** Orchestrates both batch and real-time data ingestion.
+**Amazon Kinesis:** Streams real-time data from wearable devices.
+**AWS Glue:** ETL, data transformation, and cataloging for batch data.
 **Amazon S3:** Stores raw, processed, and curated data layers.
-
-**Amazon Redshift:** Data warehouse for efficient analytics and reporting.
-
-**Amazon SNS and CloudWatch:** Sends alerts and monitors system health.
+**Amazon Redshift:** Data warehousing for efficient analytics and reporting.
+**Amazon DynamoDB:** Stores real-time data with fast, scalable access.
+**Amazon Athena:** Serverless SQL querying for data in S3.
+**Amazon QuickSight:** Visualization tool for interactive dashboards and insights.
+**Amazon SNS and CloudWatch:** Delivers real-time alerts and monitors system health.
 
 **Project Objectives:**
 
